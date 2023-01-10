@@ -11,6 +11,7 @@ module.exports = {
     },
     module: {
         rules: [
+            ...base.module.rules,
             {
                 test: /\.css$/i,  //意为文件名是.css结尾
 
