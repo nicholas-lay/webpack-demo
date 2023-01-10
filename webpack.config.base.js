@@ -18,7 +18,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: ["file-loader"]
+                use: ["file-loader"]//作用是把文件变成文件路径
             },
             {
                 test: /\.styl$/,
