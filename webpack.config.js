@@ -5,6 +5,7 @@ const base = require("./webpack.config.base.js");
 
 module.exports = {
     ...base,//意为将base的所有属性抄过来
+    mode: 'development',
     devtool: "inline-source-map",
     devServer: {
         static: "./dist",
